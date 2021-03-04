@@ -30,7 +30,8 @@
     <property name="CursorThemeName" type="string" value="Calculate"/>
 #ini#
     <property name="IconSizes" type="string" value="panel-applications-menu=22,22:gtk-menu=22,22:panel-directory=22,22:panel-directory-menu=22,22"/>
-    <property name="ButtonImages" type="bool" value="false"/>
+    <property name="ButtonImages" type="bool" value="true"/>
+    <property name="MenuImages" type="bool" value="true"/>
   </property>
 #?cl_ver>=3.6.8.8&&install.cl_install_dpi!=#
   <property name="Xfce" type="empty">

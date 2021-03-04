@@ -1,4 +1,3 @@
 # Calculate format=samba
 [Configuration]
-MiscSingleClick=TRUE
-
+MiscSingleClick=FALSE

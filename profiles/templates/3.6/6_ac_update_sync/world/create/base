@@ -1,0 +1,11 @@
+# Calculate name=world format=world
+
+#?in(os_linux_pkglist,CLDXMkep)!=#
+x11-themes/faenza-icon-theme
+x11-themes/greybird
+net-analyzer/iftop
+sys-process/iotop
+media-gfx/tuxpaint
+media-gfx/tuxpaint-stamps
+!xfce-extra/xfce4-clipman-plugin
+#in#

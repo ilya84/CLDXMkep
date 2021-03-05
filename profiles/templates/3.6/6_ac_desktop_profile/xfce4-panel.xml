@@ -1,6 +1,8 @@
-# Calculate format=xml_xfce force
+# Calculate format=xml_xfce force path=~/.config/xfce4/xfconf/xfce-perchannel-xml mergepkg(xfce-base/xfdesktop)>=4.10&&ini(update.xfce)!=off
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!--
+&&ini(ver.xfce)==
+-->
 <channel name="xfce4-panel" version="1.0">
   <property name="panels" type="uint" value="2">
     <property name="panel-0" type="empty">

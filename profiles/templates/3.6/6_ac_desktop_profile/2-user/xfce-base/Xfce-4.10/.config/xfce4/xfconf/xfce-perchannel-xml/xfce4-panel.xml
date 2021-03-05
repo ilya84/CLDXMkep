@@ -1,4 +1,4 @@
-# Calculate format=xml_xfce
+# Calculate format=xml_xfce append=replace
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">

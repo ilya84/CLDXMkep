@@ -1,4 +1,4 @@
-# Calculate format=json path=~/.config/chromium mergepkg(www-client/chromium)>=80
+# Calculate format=json path=~/.config/chromium/Default name=Preferences mergepkg(www-client/chromium)>=80
 {
     "session": {
         "restore_on_startup": 4,

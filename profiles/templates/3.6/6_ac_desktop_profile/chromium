@@ -1,4 +1,5 @@
-# Calculate format=json path=~/.config/chromium mergepkg(www-client/chromium)>=80&&ini(update.chromium)!=off
+# Calculate format=json path=~/.config/chromium mergepkg(www-client/chromium)>=80
+### &&ini(update.chromium)!=off
 {
     "session": {
         "restore_on_startup": 4,

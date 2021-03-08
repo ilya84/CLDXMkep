@@ -1,2 +1,2 @@
-app-office/onlyoffice-bin::src_prepare-overlay ~amd64
+app-office/onlyoffice-bin ~amd64
 sys-process/bpytop ~amd64

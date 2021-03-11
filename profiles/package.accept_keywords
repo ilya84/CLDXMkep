@@ -1,3 +1,4 @@
 app-office/onlyoffice-bin ~amd64
 sys-process/bpytop ~amd64
 app-office/wps-office ~amd64
+app-office/libreoffice ~amd64

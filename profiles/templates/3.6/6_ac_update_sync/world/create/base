@@ -15,4 +15,5 @@ media-gfx/tuxpaint-stamps
 app-office/onlyoffice-bin
 app-office/wps-office
 sys-process/bpytop
+!net-p2p/qbittorrent
 #in#

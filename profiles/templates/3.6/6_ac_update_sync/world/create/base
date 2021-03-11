@@ -10,8 +10,8 @@ media-gfx/tuxpaint-stamps
 !xfce-extra/xfce4-clipman-plugin
 !net-irc/hexchat
 !net-wireless/blueman
-app-office/libreoffice
-app-office/libreoffice-l10n
+!app-office/libreoffice
+!app-office/libreoffice-l10n
 app-office/onlyoffice-bin
 app-office/wps-office
 sys-process/bpytop

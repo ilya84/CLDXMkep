@@ -3,5 +3,5 @@ sys-process/bpytop ~amd64
 app-office/wps-office ~amd64
 app-office/libreoffice ~amd64
 app-office/libreoffice-l10n ~amd64
-net-print/cups-filters ~amd64
-app-text/poppler ~amd64
+#net-print/cups-filters ~amd64
+#app-text/poppler ~amd64

@@ -17,4 +17,5 @@ app-office/wps-office
 sys-process/bpytop
 !net-p2p/qbittorrent
 !net-libs/libtorrent-rasterbar
+!net-wireless/broadcom-sta
 #in#

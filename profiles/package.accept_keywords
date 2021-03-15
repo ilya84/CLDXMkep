@@ -3,5 +3,7 @@ sys-process/bpytop ~amd64
 app-office/wps-office ~amd64
 <=app-office/libreoffice-7.0.9998 **
 <=app-office/libreoffice-l10n-7.0.9998 **
+net-print/cndrvcups-capt ~amd64
+net-print/cndrvcups-common ~amd64
 #net-print/cups-filters ~amd64
 #app-text/poppler ~amd64

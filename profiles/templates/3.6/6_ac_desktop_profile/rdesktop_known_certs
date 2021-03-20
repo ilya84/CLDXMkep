@@ -1,0 +1,1 @@
+# Calculate path=~/.local/share/rdesktop/certs/ name=known_certs link=/var/calculate/remote/rdesktop_known_certs symbolic

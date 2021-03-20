@@ -1,2 +1,1 @@
-# Calculate append=skip
-#####chmod=755 format=kde link=/var/calculate/remote/gogo.desktop mirror ur_login!=root&&ur_group!=experts
+# Calculate format=kde link=/var/calculate/remote/gogo.desktop mirror ur_login!=root&&ur_group!=experts

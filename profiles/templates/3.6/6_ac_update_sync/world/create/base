@@ -19,4 +19,5 @@ sys-process/bpytop
 !net-libs/libtorrent-rasterbar
 !net-wireless/broadcom-sta
 !app-admin/system-config-printer
+app-admin/conky
 #in#

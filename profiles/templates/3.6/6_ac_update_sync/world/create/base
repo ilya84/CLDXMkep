@@ -5,8 +5,8 @@ x11-themes/faenza-icon-theme
 x11-themes/greybird
 net-analyzer/iftop
 sys-process/iotop
-media-gfx/tuxpaint
-media-gfx/tuxpaint-stamps
+!media-gfx/tuxpaint
+!media-gfx/tuxpaint-stamps
 !xfce-extra/xfce4-clipman-plugin
 !net-irc/hexchat
 !net-wireless/blueman
@@ -18,4 +18,5 @@ sys-process/bpytop
 !net-p2p/qbittorrent
 !net-libs/libtorrent-rasterbar
 !net-wireless/broadcom-sta
+!app-admin/system-config-printer
 #in#

@@ -1,1 +1,1 @@
-# Calculate append=skip env=desktop path=~ name= chown=#-main.ur_login-#:#-main.ur_group-# ur_login!=root&&ini(main.update)!=off
+# Calculate env=desktop path=~ name= chown=#-main.ur_login-#:#-main.ur_group-# ur_login!=root&&ini(main.update)!=off ac_desktop_profile==on

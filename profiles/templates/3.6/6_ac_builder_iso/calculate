@@ -1,0 +1,21 @@
+# Calculate format=diff path=/etc/init.d/
+--- calculate   2021-04-02 22:34:31.000000000 +1000
++++ calculate   2020-09-18 10:38:29.802369282 +1000
+@@ -157,7 +157,7 @@
+                        install_video_driver
+                fi
+                setup_alsautils
+-               LANG=C create_nonroot_user
++               [[ -z `grep -Po "(?<=noguest=)\S*" /proc/cmdline` ]] &&  LANG=C create_nonroot_user
+                if [[ $subsystem == "lxc" ]] || [[ $roottype == "livecd" ]]
+                then
+                        LANG=C /usr/sbin/cl-core --method setup_system --no-progress --usenew-conf --live on --network on
+@@ -187,7 +187,7 @@
+ 
+                if [[ $roottype == "livecd" ]]
+                then
+-                       LANG=C /usr/sbin/cl-core -u guest
++                       [[ -z `grep -Po "(?<=noguest=)\S*" /proc/cmdline` ]] && LANG=C /usr/sbin/cl-core -u guest
+                fi
+ 
+                if [[ $roottype == "hdd" ]]

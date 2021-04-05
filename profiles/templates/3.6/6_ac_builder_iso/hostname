@@ -1,0 +1,16 @@
+# Calculate format=diff path=/etc/init.d/
+--- hostname    2021-03-09 14:24:58.000000000 +1000
++++ hostname    2021-04-05 17:14:21.804271368 +1000
+@@ -28,6 +28,12 @@
+                # It is also a magic variable in bash.
+                h=${hostname:-${HOSTNAME}} # checkbashisms: false positive (HOSTNAME var)
+        fi
++        local cmdhn
++        cmdhn=`grep -Po "(?<=hostname=)\S*" /proc/cmdline`
++        if [ -n $cmdhn ]; then
++                h=$cmdhn
++                source="from kernel cmdline"
++        fi
+        if [ -z "$h" ]; then
+                einfo "Using default system hostname"
+                return 0

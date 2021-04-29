@@ -7,3 +7,5 @@ net-print/cndrvcups-capt ~amd64
 net-print/cndrvcups-common ~amd64
 #net-print/cups-filters ~amd64
 #app-text/poppler ~amd64
+media-video/obs-v4l2sink ~amd64
+media-video/v4l2loopback ~amd64

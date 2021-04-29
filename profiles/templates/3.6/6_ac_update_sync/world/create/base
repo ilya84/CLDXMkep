@@ -20,4 +20,8 @@ sys-process/bpytop
 !net-wireless/broadcom-sta
 !app-admin/system-config-printer
 app-admin/conky
+media-video/v4l2loopback
+media-video/obs-studio
+media-video/obs-v4l2sink
+net-im/zoom
 #in#

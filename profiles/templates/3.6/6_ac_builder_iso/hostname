@@ -7,7 +7,7 @@
         fi
 +        local cmdhn
 +        cmdhn=`grep -Po "(?<=hostname=)\S*" /proc/cmdline`
-+        if [ -n $cmdhn ]; then
++        if [ -n "$cmdhn" ]; then
 +                h=$cmdhn
 +                source="from kernel cmdline"
 +        fi

@@ -40,4 +40,5 @@ net-misc/anydesk
 !gnome-extra/nm-applet
 !mail-client/claws-mail
 !x11-themes/claws-mail-theme-calculate
+!xfce-extra/xfce4-power-manager
 #in#

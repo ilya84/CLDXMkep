@@ -25,4 +25,16 @@ media-video/obs-studio
 media-video/obs-v4l2sink
 net-im/zoom
 dev-libs/libusb-compat
+net-misc/anydesk
+!sec-policy/selinux-networkmanager
+!net-vpn/networkmanager-wireguard
+!net-vpn/networkmanager-vpnc
+!net-vpn/networkmanager-strongswan
+!net-vpn/networkmanager-sstp
+!net-vpn/networkmanager-pptp
+!net-vpn/networkmanager-openvpn
+!net-vpn/networkmanager-openconnect
+!net-vpn/networkmanager-l2tp
+!net-vpn/networkmanager-fortisslvpn
+!net-misc/networkmanager
 #in#

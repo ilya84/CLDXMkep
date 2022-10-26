@@ -37,4 +37,7 @@ net-misc/anydesk
 !net-vpn/networkmanager-l2tp
 !net-vpn/networkmanager-fortisslvpn
 !net-misc/networkmanager
+!gnome-extra/nm-applet
+!mail-client/claws-mail
+!x11-themes/claws-mail-theme-calculate
 #in#

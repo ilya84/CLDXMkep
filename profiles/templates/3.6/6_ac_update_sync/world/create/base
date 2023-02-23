@@ -1,6 +1,5 @@
-# Calculate name=world format=world
+# Calculate name=world format=world in(os_linux_pkglist,CLDXMkep)!=
 
-#?in(os_linux_pkglist,CLDXMkep)!=#
 x11-themes/faenza-icon-theme
 x11-themes/greybird
 net-analyzer/iftop
@@ -43,4 +42,3 @@ net-misc/anydesk
 !xfce-extra/xfce4-power-manager
 app-editors/nano
 !net-im/gajim
-#in#

@@ -41,4 +41,5 @@ net-misc/anydesk
 !x11-themes/claws-mail-theme-calculate
 !xfce-extra/xfce4-power-manager
 app-editors/nano
+app-misc/mc
 !net-im/gajim
